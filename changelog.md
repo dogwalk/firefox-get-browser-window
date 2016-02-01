@@ -6,4 +6,4 @@
 
 ### Features
 
-* **window:** get window ([a17b343](https://github.com/dogwalk/firefox-get-browser-window/commit/a17b343))
+* **window:** get window ([a17b343](https://github.com/dogwalk/get-firefox-browser-window/commit/a17b343))
