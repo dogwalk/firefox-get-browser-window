@@ -1,10 +1,6 @@
-'use strict';
-module.exports = function (str, opts) {
-  if (typeof str !== 'string') {
-    throw new TypeError('Expected a string');
-  }
-
-  opts = opts || {};
-
-  return str + ' & ' + (opts.postfix || 'rainbows');
+const { Cu } = require('chrome');
+module.exports = () => {
+  /* global Services:false */
+  Cu.import('resource://gre/modules/Services.jsm');
+  return Services.wm.getMostRecentWindow('navigator:browser');
 };
