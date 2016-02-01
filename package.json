@@ -27,7 +27,9 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "addon",
+    "firefox",
+    "jetpack"
   ],
   "license": "MIT",
   "repository": "sanemat/firefox-get-window",
