@@ -18,7 +18,8 @@
     "touch": "^1.0.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
   },
   "files": [
     "index.js"
