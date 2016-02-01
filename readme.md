@@ -2,7 +2,7 @@
 
 [![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] [![Daviddm Status][daviddm-image]][daviddm-url]
 
-> My spectacular module
+> For Firefox addon: Get a window.
 
 
 ## Install
@@ -17,31 +17,15 @@ $ npm install --save firefox-get-window
 ```js
 var firefoxGetWindow = require('firefox-get-window');
 
-firefoxGetWindow('unicorns');
-//=> unicorns & rainbows
+firefoxGetWindow();
+//=> ChromeWindow
 ```
 
 
 
 ## API
 
-### firefoxGetWindow(input, [options])
-
-#### input
-
-*Required*  
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
+### firefoxGetWindow() -> ChromeWindow || null
 
 
 ## Changelog
