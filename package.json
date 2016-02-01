@@ -29,7 +29,7 @@
     "jetpack"
   ],
   "license": "MIT",
-  "repository": "sanemat/firefox-get-window",
+  "repository": "dogwalk/firefox-get-window",
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
