@@ -2,7 +2,9 @@
 
 [![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] [![Daviddm Status][daviddm-image]][daviddm-url]
 
-> For Firefox addon: Get a window.
+> For Firefox addon: Get a browser window.
+
+See: [nsIWindowMediator#getMostRecentWindow()](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIWindowMediator#getMostRecentWindow())
 
 
 ## Install
