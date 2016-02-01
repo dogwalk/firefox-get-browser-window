@@ -15,8 +15,7 @@
     "eslint-config-airbnb": "^4.0.0",
     "fixpack": "^2.2.0",
     "globstar": "^1.0.0",
-    "npm-check-updates": "^2.5.7",
-    "touch": "^1.0.0"
+    "npm-check-updates": "^2.5.7"
   },
   "engines": {
     "firefox": ">=38.0a1",
@@ -33,7 +32,7 @@
   "license": "MIT",
   "repository": "dogwalk/firefox-get-browser-window",
   "scripts": {
-    "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
+    "changelog": "conventional-changelog -i changelog.md --overwrite --preset angular",
     "eclint": "globstar --ignore \"node_modules/**\" -- eclint check \"*.{js,yml,md,json}\"",
     "eslint": "eslint .",
     "fixpack": "fixpack",
